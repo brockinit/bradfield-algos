@@ -13,7 +13,7 @@ import collections
     :type K: int
     :rtype: int
 '''
-def networkDelayTime(times, N, K):
+def network_delay_time(times, N, K):
     graph = collections.defaultdict(list)
     for src, tgt, time in times:
         graph[src].append([tgt, time])
@@ -37,4 +37,4 @@ def networkDelayTime(times, N, K):
     return max(distances.values())
 
 
-assert networkDelayTime([[2,1,1],[2,3,1],[3,4,1]], 4, 2) == 2, "Expected 2"
+assert network_delay_time([[2,1,1],[2,3,1],[3,4,1]], 4, 2) == 2, "Expected 2"
