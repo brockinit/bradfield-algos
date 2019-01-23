@@ -36,5 +36,7 @@ def network_delay_time(times, N, K):
     # Return the furthest distance from the starting node to another node on the graph
     return max(distances.values())
 
-
+### Tests ###
 assert network_delay_time([[2,1,1],[2,3,1],[3,4,1]], 4, 2) == 2, "Expected 2"
+assert network_delay_time([[2,1,1],[2,3,1],[3,4,1],[4,5,2]], 5, 2) == 4, "Expected 4"
+assert network_delay_time([[1,2,1],[1,3,4],[3,4,1],[5,6,2]], 6, 1) == -1, "Expected -1"
