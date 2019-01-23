@@ -1,3 +1,7 @@
+'''
+ Didn't do anything meaningful here, just followed the walkthrough video.
+'''
+
 class Stack:
 
     def __init__(self):
