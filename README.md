@@ -5,3 +5,4 @@
 - [Class 5: Weighted Graphs](weightedGraphs)
 - [Class 6: Backtracking and Constaint Satisfaction](backtrackingAndConstraintSatisfaction)
 - [Class 7: Dynamic Programming](dynamicProgramming)
+Cool
